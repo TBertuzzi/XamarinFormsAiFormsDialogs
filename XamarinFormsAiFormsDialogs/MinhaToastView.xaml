@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toast:ToastView  xmlns:toast="clr-namespace:AiForms.Dialogs.Abstractions;assembly=AiForms.Dialogs" 
+                  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsAiFormsDialogs.MinhaToastView">
+  <ContentView.Content>
+
+        <StackLayout x:Name="container" Spacing="0" Padding="10" WidthRequest="124" HeightRequest="124">
+            <Image x:Name="image" WidthRequest="70" HeightRequest="70" Margin="0,0,0,10" />
+            <Label Text="Rodando, MA OEEEEEEE! " HorizontalTextAlignment="Center" x:Name="label"
+               TextColor="#444444" FontSize="Medium"
+               VerticalOptions="FillAndExpand" VerticalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentView.Content>
+</toast:ToastView>
